@@ -1,0 +1,40 @@
+# Keil 和 ARM 编译产物
+**/Objects/
+**/OBJ/
+**/Listings/
+**/DebugConfig/
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.obj
+*.crf
+*.dep
+*.lnp
+*.sct
+*.lst
+*.iex
+*.htm
+*.chm
+
+# Keil、J-Link 和本地调试配置
+*.uvguix.*
+JLinkLog.txt
+JLinkSettings.ini
+EventRecorderStub.scvd
+*.dbgconf
+
+# 本地日志和临时备份
+*.log
+build_check*
+*.bak
+*.Bak
+*.tmp
+
+# 编辑器与操作系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
